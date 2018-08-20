@@ -1,1 +1,4 @@
-console.log('welcome')
+import {vardecl} from './vardecl';
+console.log('welcome');
+
+vardecl();
