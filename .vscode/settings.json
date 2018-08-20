@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": false,
+    "eslint.enable": true,
+    "eslint.options": { "configFile": "${workspaceRoot}/.eslintrc.js" }
+          
+}
