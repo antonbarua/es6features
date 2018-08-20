@@ -1,6 +1,6 @@
 {
     "git.ignoreLimitWarning": false,
     "eslint.enable": true,
-    "eslint.options": { "configFile": "${workspaceRoot}/.eslintrc.js" }
-          
+    "eslint.options": { "configFile": "${workspaceRoot}/.eslintrc.js" },
+    "terminal.integrated.fontSize":15
 }
