@@ -2,6 +2,7 @@ import vardecl from './vardecl';
 import * as arrFunctions from './array';
 import * as arrowFunctions from './arrow';
 import * as points from './classes';
+import * as point from './objectLiteral';
 
 console.log('welcome');
 
@@ -24,3 +25,7 @@ points.init();
 console.log(new points.Point(1, 2).toString());
 console.log(new points.ColorPoint(5, 6, 'red').toString());
 console.log(points.ColorPoint.default().toString());
+
+point.init();
+console.log(point.point.toString());
+console.log(point.point.doubleX());
