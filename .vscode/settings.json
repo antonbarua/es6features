@@ -1,6 +1,9 @@
 {
     "git.ignoreLimitWarning": false,
     "eslint.enable": true,
-    "eslint.options": { "configFile": "${workspaceRoot}/.eslintrc.js" },
-    "terminal.integrated.fontSize":15
+    "eslint.options": {
+        "configFile": "/home/anton/es6features/.eslintrc.js"
+    },
+    "eslint.provideLintTask": true,
+    "eslint.autoFixOnSave": true
 }
