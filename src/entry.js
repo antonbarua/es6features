@@ -6,6 +6,7 @@ import * as point from './objectLiteral';
 import * as templateStr from './templateStrings';
 import * as defaultArgs from './defaultFuncArgs';
 import * as spreadrest from './spreadrest';
+import * as destructure from './destructuring';
 
 console.log('welcome');
 
@@ -44,3 +45,10 @@ spreadrest.init();
 spreadrest.shallowCopy();
 spreadrest.arrConcat();
 spreadrest.restFuncParams();
+spreadrest.simpleArrSpread();
+spreadrest.simpleObjSpread();
+
+destructure.init();
+destructure.destructureArray();
+destructure.destructureObject();
+destructure.simpleDestructuring();
