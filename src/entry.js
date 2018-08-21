@@ -1,5 +1,6 @@
 import vardecl from './vardecl';
 import * as arrFunctions from './array';
+import * as arrowFunctions from './arrow';
 
 console.log('welcome');
 
@@ -13,3 +14,7 @@ arrFunctions.find();
 arrFunctions.every();
 arrFunctions.some();
 arrFunctions.reduce();
+
+arrowFunctions.printArr();
+arrowFunctions.reduce();
+arrowFunctions.reduce2();
